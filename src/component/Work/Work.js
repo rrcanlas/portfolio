@@ -5,13 +5,14 @@ import icon from "../../portfolio.png";
 export default class Work extends Component {
  	render() {
  		const { img, name, info, source_url, code, rel } = this.props.work;
+ 		const url = `${img}`;
  		return (
  			<article className="work">
  				<h3>{name}</h3>			
 				<div className="img-container">
 					<a href={source_url} 
 				    target="_blank" rel={rel}>
-				    <img className="worklist" src={img} alt={name}/></a>
+				    <img className="worklist" src={url} alt={name}/></a>
 				</div>
 				<div className="work-info">
 					<h4>
