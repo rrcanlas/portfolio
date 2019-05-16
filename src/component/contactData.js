@@ -4,7 +4,7 @@ export const contactData = [
 
 	{
 		id:1,
-		img: "../../linkedin.png",
+		img: "../../img/linkedin.png",
 		name: "LinkedIn",
 		source_url: "https://www.linkedin.com/in/rrcnlas/" ,
 		source_icon: "fab fa-linkedin",
@@ -12,7 +12,7 @@ export const contactData = [
 		},
 	{
 		id:2,
-		img: "../../github-logo.png",
+		img: "../../img/github-logo.png",
 		name: "gitHub",
 		source_url: "https://github.com/rrcanlas",
 		source_icon: "fab fa-github-square",
@@ -20,7 +20,7 @@ export const contactData = [
 	},
 	{
 		id:3,
-		img: "../../google-plus.png",
+		img: "../../img/google-plus.png",
 		name: "Gmail",
 		source_url: "mailto:rrbgc0512@gmail.com",
 		source_icon: "fab fa-facebook-square",
@@ -28,7 +28,7 @@ export const contactData = [
 	},
 	{
 		id:5,
-		img: "../../curriculum-vitae.png",
+		img: "../../img/curriculum-vitae.png",
 		name: "Resume",
 		source_url: "https://rrcanlas.github.io/rrcResume/",	
 		rel: "noopener noreferrer"	
@@ -36,7 +36,7 @@ export const contactData = [
 	},
 	{
 		id:4,
-		img: "../../instagram.png",
+		img: "../../img/instagram.png",
 		name: "Instagram",
 		source_url: "https://www.instagram.com/rrcnlas",
 		source_icon: "fab fa-instagram",
