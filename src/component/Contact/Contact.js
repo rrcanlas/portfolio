@@ -5,7 +5,7 @@ import icon from "../../portfolio.png";
 export default class Contact extends Component {
  	render() {
  		const { img, name, source_url, source_icon, rel } = this.props.contact;
- 		const url = `${img}`;
+ 		const url = `https://i.postimg.cc/${img}.png`;
  		console.log({img});
  		return (						    
 		  <div>		  

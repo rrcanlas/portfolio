@@ -2,7 +2,7 @@ export const workData = [
 
 	{
 		id:1,
-		img: "../../img/arcadeGame.png",
+		img: "4NzJKsLk/arcade-Game",
 		name: "Arcade Game",
 		info: "This popular game reinforces players to have a better eye-hand coordination. Languages: HTML, CSS and JavaScript.",
 		source_url: "https://rrcanlas.github.io/ArcAde-gAme/",
@@ -11,7 +11,7 @@ export const workData = [
 	},
 	{
 		id:2,
-		img: "../../img/matchGame.png",
+		img: "cLh0mTGF/match-Game",
 		name: "Memory Game", 
 		info: "A game to find matching pairs of cards until all pairs are found. The app has a timer and scoring functions. Languages: HTML, CSS, JavaScript",
 		source_url: "https://rrcanlas.github.io/MeMory-gaMe/",
@@ -20,7 +20,7 @@ export const workData = [
 	},
 	{
 		id:3,
-		img: "../../img/map.png",
+		img: "hG3gFjjx/map",
 		name: "Neighborhood Map",
 		info: "This application utilizes Google Maps Data APIs. It allow users to locate places in Virginia, United States. Languages: React, HTML, CSS, JavaScript",
 		source_url: "https://rrcanlas.github.io/NMapVA/",
@@ -29,7 +29,7 @@ export const workData = [
 	},
 	{
 		id:4,
-		img: "../../img/canvas.png",
+		img: "zB6JhBY5/canvas",
 		name: "Pixel Art Maker",
 		info: "Part of Grow-With-Google Udacity Front-End NanoDegree. Languages: HTML, CSS, JavaScript",
 		source_url: "https://rrcanlas.github.io/piXel-aRt-maKeR/",

@@ -5,7 +5,7 @@ import icon from "../../portfolio.png";
 export default class Work extends Component {
  	render() {
  		const { img, name, info, source_url, code, rel } = this.props.work;
- 		const url = `${img}`;
+ 		const url = `https://i.postimg.cc/${img}.png`;
  		return (
  			<article className="work">
  				<h3>{name}</h3>			
