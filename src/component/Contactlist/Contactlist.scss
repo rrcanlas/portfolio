@@ -1,0 +1,132 @@
+@import "../../index.scss";
+
+/* shows all the projects */
+
+.contactlist{
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+@media screen and (min-width:430px){
+  .contactlist {
+    padding: 0.5rem 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    position: relative;
+    top: 10px;
+    left: 55px;
+  }
+}
+
+@media screen and (min-width:592px){
+  .contactlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+  }
+}
+
+@media screen and (min-width:768px){
+  .contactlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+    left: auto;
+  }
+}
+
+@media screen and (min-width:992px){
+  .contactlist {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 85vw;
+  }
+}
+
+@media screen and (min-width:1140px){
+  .contactlist {   
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;   
+  }
+}
+
+
+
+/* sfo-background */
+
+.contact {
+  height: 95%;
+  width: 100%;
+  min-height: 35rem;
+  position: relative; 
+}
+
+  @media only screen and (max-width: 37.5em) {
+    .contact {
+      height: 120vh; 
+    } 
+  }
+
+.contact-img {
+  background-image: url("../../img/view.jpg");
+  background-size: cover;
+  background-position: right;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  filter: saturate(120%) brightness(120%); 
+}
+
+  @media only screen and (max-width: 56.25em) {
+    .contact-img {
+      background-position: center; 
+    } 
+  }
+
+.findme {
+  top: 170px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 20rem;
+  position: relative;
+  left: 17%; }
+  @media only screen and (max-width: 56.25em) {
+    .findme {
+      top: 15rem;
+      margin: 0 auto;
+      right: auto;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%); } 
+      
+      @media only screen and (max-width: 90.25em) {
+    .findme {
+      top: 15rem;
+      margin: 0 auto;
+      right: auto;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%); 
+    } 
+      
+  }
+}
+ 
+.findme-title {   
+  font-weight: 700;
+  text-transform: lowercase;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: $lightYellow;
+  margin-bottom: 0;
+  margin-top: 0; 
+}
+    
+  @media only screen and (max-width: 10.25em) {
+  .findme-title {
+    margin: 0 auto; 
+    right: auto;
+    width: 50vw;
+    left: 50%;
+    top: 100%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%); 
+  }
+}

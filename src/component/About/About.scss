@@ -1,0 +1,87 @@
+@import "../../index.scss";
+
+.about {
+  background: $lightGray;
+  height: 95%;
+  width: 100%;
+  min-height: 35rem;
+  position: relative; 
+}
+
+  @media only screen and (max-width: 37.5em) {
+    .about {
+      height: 120vh; 
+    } 
+}
+
+.about-img {
+  background-image: url("../../img/wa-state.jpg");
+  background-size: cover;
+  background-position: right;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  filter: saturate(120%) brightness(90%); 
+}
+  
+  @media only screen and (max-width: 56.25em) {
+    .about-img {
+      background-position: center; 
+    } 
+  }
+
+.bio {
+  top: 170px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 52rem;
+  position: relative;
+  left: 17%; 
+
+}
+  @media only screen and (max-width: 56.25em) {
+    .bio {
+      right: auto;
+      width: 75%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%); 
+    } 
+  }
+
+  .bio-title {   
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 5rem;
+    color: $yelLow;
+    margin-bottom: 0;
+    margin-top: 0; 
+  }
+
+  .bio-text {
+    text-align: justify;
+    font-family: 'Ralway', sans-serif;
+    font-size: 1.2rem;
+    color: $appleDWhite;
+    margin-top: 18px;
+    line-height: 25px;
+    letter-spacing: .2rem;
+    -webkit-text-shadow: 0 1rem 1rem black;
+    text-shadow: 0 0.3rem 1rem black; 
+  }
+
+    @media only screen and (max-width: 37.5em) {
+      .bio-text {
+        margin-top: .1rem;
+        font-size: .9rem;
+        line-height: 15px;
+        text-align: center; 
+        font-weight: 700;
+      } 
+      .bio-title {
+        font-size: 2rem;
+      }
+    }
+
+  

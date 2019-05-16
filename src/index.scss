@@ -1,0 +1,27 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+  $darkGray:  #c9c9c9; 
+  $lightGray: #e3e3e3; 
+  $babyBlue:  #9ad3de; 
+  $lightBlue: #89cff0; 
+  $cleanWhite:#ffffff;
+  $fushia:    #ff3892;
+
+  $appleBlack: #000000;
+  $appleDGray: #666666;
+  $appleLGray: #979797;
+  $appleDWhite:#eeeeee;
+  $appleBlue : #0088cc;
+
+  $yelLow: #ffff00;
+  $lightYellow: #ffff93;
+  
+ body{
+  background: $cleanWhite !important;
+	color: appleBlack !important;
+	font-family: "Coiny", cursive !important;
+  }

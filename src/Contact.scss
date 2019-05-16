@@ -1,0 +1,100 @@
+@import "../../index.scss";
+
+.container {
+      position: relative;
+      //margin: 12rem  auto 5rem auto;
+      padding: 5em;
+      width: 100%;
+      height: 30%;}
+      @media only screen and (max-width: 37.5em) {
+      .container {
+        background-position: center;
+        margin: 10rem auto; }}
+  
+  .social__media {
+
+    //top: 170px;  
+    font-weight: 700;
+    text-transform: lowercase;
+    font-size: 3rem;
+    line-height: 5rem;
+    color: $appleBlue;
+    text-align: center;
+    //margin-left: 13rem;
+    //margin-top: 14rem;
+    position: relative; }
+    @media only screen and (max-width: 37.5em) {
+      .social__media  {
+        margin-top: 10rem;
+        font-size: 1.5rem;
+        line-height: 15px;
+        text-align: center; }}
+    
+  .destination-container {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+  }
+
+  .destination {
+      background: #03a9f4;
+      box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
+      color: white;
+      margin: 0.5em auto;
+      min-height: 200px;
+      flex: 0 1 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  //.destination:hover h2 {
+  //    transform: rotate(0deg);
+  //}
+
+  h2 {
+      margin: 0;
+      transform: rotate(-45deg);
+      transition: transform 0.5s;
+      text-shadow: 0 0 5px #01579b;
+  }
+
+  .square {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      transition: transform 1s ease;
+  }
+
+  .square:hover {
+    transform: scale(1.2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.6);
+    
+  }
+
+  h2:hover {
+    transform: rotate(0deg);
+  }
+ 
+  #resume {     
+      background-image: url("../../img/wa-state.jpg");   
+  }
+
+  #linkedin {
+      background-image: url("../../img/linkedin.png");
+  }
+
+  #github {
+      background-image: url("../../img/github.png");
+  }
+
+  #fb {
+      background-image: url("../../img/fb.png");
+  }
+
+  #instagram {
+      background-image: url("../../img/instagram.png");
+  }
