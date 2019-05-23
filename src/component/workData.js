@@ -20,18 +20,17 @@ export const workData = [
 	},
 	{
 		id:3,
-		img: "hG3gFjjx/map",
-		name: "Neighborhood Map",
-		info: "This application utilizes Google Maps Data APIs. It allow users to locate places in Virginia, United States. Languages: React, HTML, CSS, JavaScript",
-		source_url: "https://rrcanlas.github.io/NMapVA/",
-		code: "https://github.com/rrcanlas/NMapVA",
+		img: "HLHVP9zr/mockup",
+		name: "Mock-Up to Article",
+		info: "A recent mockup of a website (and a copy of the text) which was translated into an HTML.",
+		code: "https://github.com/rrcanlas/moCkUp-tO-artiCle",
 		rel: "noopener noreferrer"
 	},
 	{
 		id:4,
 		img: "zB6JhBY5/canvas",
 		name: "Pixel Art Maker",
-		info: "Part of Grow-With-Google Udacity Front-End NanoDegree. Languages: HTML, CSS, JavaScript",
+		info: "Part of Grow-With-Google Udacity Front-End NanoDegree. Can be viewed on Desktop. Languages: HTML, CSS, JavaScript",
 		source_url: "https://rrcanlas.github.io/piXel-aRt-maKeR/",
 		code: "https://github.com/rrcanlas/piXel-aRt-maKeR",
 		rel: "noopener noreferrer"
