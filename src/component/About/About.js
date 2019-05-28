@@ -13,9 +13,8 @@ export default function bio() {
                     Rose Renie Canlas
                 </div>
                 <div className="bio-text">
-                    Experienced Web Developer with a demonstrated history of working in the non-profit organization management industry. Skilled in User Experience (UX), WordPress, User Interface Design, Web Design, and HTML. Strong media and communication professional with a Front-End Web Developer Nanodegree focused in Computer Software Technology from (Grow with Google Developer Scholarship) Udacity.                 					
+                    Experienced Web Developer with a demonstrated history of working in the non-profit organization management industry. Skilled in User Experience (UX), WordPress, User Interface Design, Web Design, and HTML. Alumni of the Grow with Google Developer Scholarship in 2018 and have completed Udacity's Front-End Developer nanodegree.                					
 				</div>
-
             </div>                   	
         </section>     
 	)
