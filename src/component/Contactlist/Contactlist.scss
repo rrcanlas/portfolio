@@ -1,7 +1,5 @@
 @import "../../index.scss";
 
-/* shows all the projects */
-
 .contactlist{
   width: 100%;
   margin: 0 auto;
@@ -142,5 +140,12 @@
     top: 100%;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%); 
+  }
+}
+
+  @media only screen and (max-width: 37.5em){ 
+  .findme-title {
+    font-size: 2rem;
+    margin-left: 6.5rem;
   }
 }
