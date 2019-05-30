@@ -22,7 +22,7 @@
 
  * Acknowledgement:
 
- 	- [Google Font - Coiny](href="https://fonts.google.com/specimen/Coiny)
+ 	- [Google Font - Coiny](https://fonts.google.com/specimen/Coiny)
 
    	- [FontAwesome](https://fontawesome.com/?from=io) 
 
