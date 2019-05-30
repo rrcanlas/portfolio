@@ -26,9 +26,6 @@
 
    	- [FontAwesome](https://fontawesome.com/?from=io) 
 
-   	- [freepik](https://www.freepik.com/)
-
    	- [PostImage](https://postimages.org/)
 
    	- [freepik](https://www.freepik.com/)
-	
