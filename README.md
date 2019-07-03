@@ -22,18 +22,10 @@
 
  * Acknowledgement:
 
- 	- [Google Font - Coiny](href="https://fonts.google.com/specimen/Coiny)
+ 	- [Google Font - Coiny](https://fonts.google.com/specimen/Coiny)
 
    	- [FontAwesome](https://fontawesome.com/?from=io) 
 
-<<<<<<< HEAD
-   	- [freepik](https://www.freepik.com/)
-
    	- [PostImage](https://postimages.org/)
-||||||| merged common ancestors
+
    	- [freepik](https://www.freepik.com/)
-=======
-   	- [freepik](https://www.freepik.com/)
-	
-	- [PostImage](https://postimages.org/)
->>>>>>> 2e3135ab8b5406eee511fb50b18abeb332bda730
