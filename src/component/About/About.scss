@@ -2,7 +2,7 @@
 
 .about {
   background: $lightGray;
-  height: 95%;
+  height: 100%;
   width: 100%;
   min-height: 35rem;
   position: relative; 
@@ -51,10 +51,10 @@
 
   .bio-title {   
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: 3rem;
     line-height: 5rem;
-    color: $yelLow;
+    color: $instaGram;
     margin-bottom: 0;
     margin-top: 0; 
   }

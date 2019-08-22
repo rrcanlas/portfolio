@@ -6,7 +6,7 @@ export default function Footer() {
 	return (
 		<div className="footer">
 			<div>
-				<div className="copyright">Copyright &copy; <span className="year">2019</span> Rose Canlas | All Rights Reserved</div>
+				<div className="copyright">copyright &copy; <span className="year">2019</span> rrcanlas | all rights reserved</div>
   			</div>
 		</div>
 	);

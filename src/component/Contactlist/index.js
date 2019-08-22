@@ -18,7 +18,7 @@ Component  {
  				<div className="contact-img"></div>
  				<div className="findme">
 		            <div className="findme-title">
-		               Find me on
+		               Contact
 		            </div>
  					<div className="contactlist">
              		

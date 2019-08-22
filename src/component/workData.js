@@ -23,6 +23,7 @@ export const workData = [
 		img: "HLHVP9zr/mockup",
 		name: "Mock-Up to Article",
 		info: "A recent mockup of a website (and a copy of the text) which was translated into an HTML.",
+		source_url: "https://rrcanlas.github.io/moCkUp-tO-artiCle/",
 		code: "https://github.com/rrcanlas/moCkUp-tO-artiCle",
 		rel: "noopener noreferrer"
 	},

@@ -1,5 +1,12 @@
 @import "../../index.scss";
 
+.logo{
+  background-image: url("https://i.postimg.cc/PqGN4mkp/logo.png");	
+  width: 80px;
+  height: 65px;
+  background-size: no-repeat;	
+}
+
 .navbar{
 	background: $appleBlue;
 	padding: 0.5rem 1rem;
@@ -21,13 +28,13 @@
 	color: $appleDWhite;
 	text-transform: capitalize;
 	text-decoration: none;
-	font-size: 1.2rem;
+	font-size: 1.5rem !important;
 	transition: all 0.3s linear;
 	&:hover{
-		color: $fushia;
+		color: $lightBlue !important;
 	}
 }
 
 .active {
-	color: $yelLow;
+	color: $appleBlack !important;
 }
